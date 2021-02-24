@@ -1,0 +1,30 @@
+{
+  "name": "istock",
+  "version": "1.0.0",
+  "description": "webdriverio-poc",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "author": "kannan",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^6.10.2",
+    "save-dev": "0.0.1-security",
+    "webdriverio": "^6.10.2"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^6.8.1",
+    "@wdio/local-runner": "^6.10.5",
+    "@wdio/mocha-framework": "^6.10.4",
+    "@wdio/selenium-standalone-service": "^6.10.3",
+    "@wdio/spec-reporter": "^6.8.1",
+    "@wdio/sync": "^6.10.4",
+    "allure-commandline": "^2.13.0",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^87.0.2",
+    "local-runner": "^0.1.1-alpha",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
+}
